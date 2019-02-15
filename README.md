@@ -9,12 +9,12 @@ Navigate to the new folder `cd Quick-React-Dev`
 
 Install dependencies `npm install`
 
-Open a new tab and run Webpack `npm run webpack`
+Open a new tab in Terminal and run Webpack `npm run webpack`
 
-Open a new tab and run nodemon `npm run server`
+Open a new tab in Terminal and run nodemon `npm run server`
 
 Navigate to localhost:3000.
 
 Webpack is watching your files for any changes. Nodemon will detect any changes and re-launch your server (no more shutting down the server and restarting manually).
 
-# Easy peasy!
+### Easy peasy!
