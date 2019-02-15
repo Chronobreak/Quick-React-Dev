@@ -1,16 +1,30 @@
 body {
+  margin-top: 15%;
   font-family: Rubik;
   font-size: 36px;
+  text-align: center;
+  text-shadow: 0 0 4px black;
   animation-name: welcome;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
   animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  background-image: url('https://i.imgur.com/GsMY5Ru.gif');
+  background-size: cover;
 }
 
 @keyframes welcome {
-  0%   {color:rgb(14, 131, 125)}
-  25% {color: powderblue}
-  50% {color: yellowgreen}
-  70% {color: palevioletred}
-  100%  {color:rgb(47, 21, 197)}
+  0%   {color: rgb(224, 222, 222); opacity: 0}
+  25% {color: rgb(224, 222, 222); opacity: 0}
+  75% {color: rgb(224, 222, 222); opacity: 0.6}
+  100%  {color: rgb(224, 222, 222); opacity: 1.0}
+}
+
+img {
+  padding: 0;
+  display: block;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
