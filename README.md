@@ -1,5 +1,5 @@
 # Quick-React-Dev
-Ready-to-go, out-of-the-box React starter kit featuring React 16, Webpack 4, and Babel.
+Ready-to-go, out-of-the-box, barebones React starter kit featuring React 16, Webpack 4, and Babel. Perfect for hackathons or new fullstack projects.
 
 # Getting started
 
